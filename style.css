@@ -11,8 +11,10 @@
   background: white;
   padding: 15px;
   border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+
 }
-.card-img img {
+.card img {
   height: 300px;
   border-radius: 20px;
 }
@@ -21,12 +23,12 @@ body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
 }
-.card-content {
+.card__content {
   text-align: center;
   padding: 10px;
 }
 
-.card-body {
+p {
   color: hsl(220, 15%, 55%);
 }
 h3 {
